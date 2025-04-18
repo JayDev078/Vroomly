@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { cars } from '../data';
 import { getWishlist } from '../utils/storage';
-import Header from '../components/header';
+import Header from '../components/Header';
 import CarCard from '../components/CarCard';
 import Toast from '../components/Toast';
 import { X } from 'lucide-react';
