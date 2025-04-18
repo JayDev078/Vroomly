@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { ChevronLeft, Heart, Share2, Calendar, Fuel, Users, TrendingUp } from 'lucide-react';
-import Header from '../components/header';
+import Header from '../components/Header';
 import Toast from '../components/Toast';
 import { cars } from '../data';
 import { addToWishlist, removeFromWishlist, isInWishlist } from '../utils/storage';
