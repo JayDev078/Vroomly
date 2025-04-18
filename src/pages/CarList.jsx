@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { cars } from '../data';
-import Header from '../components/header';
+import Header from '../components/Header';
 import Filters from '../components/Filters';
 import CarCard from '../components/CarCard';
 import Pagination from '../components/Pagination';
